@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.androidparking.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <activity
+        android:id="@+id/nav_Userdetails"
+        android:name="com.example.androidparking.Userdetails"
+        android:label="@string/menu_userdetails"
+        tools:layout="@layout/activity_userdetails" />
+
+    <activity
+        android:id="@+id/nav_Bookaslot"
+        android:name="com.example.androidparking.Bookaslot"
+        android:label="@string/menu_Bookaslot"
+        tools:layout="@layout/activity_bookaslot" />
+
+
+    <activity
+        android:id="@+id/nav_History"
+        android:name="com.example.androidparking.History"
+        android:label="@string/menu_History"
+        tools:layout="@layout/activity_history" />
+
+    <activity
+        android:id="@+id/nav_About"
+        android:name="com.example.androidparking.About"
+        android:label="@string/menu_About"
+        tools:layout="@layout/activity_about" />
+
+    <activity
+        android:id="@+id/nav_Logout"
+        android:name="com.example.androidparking.Logout"
+        android:label="@string/menu_Logout"
+        tools:layout="@layout/activity_logout" />
+</navigation>

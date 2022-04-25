@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Details"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="DETAILS"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Enter Username"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:id="@+id/editText" />
+
+    <Button
+        android:id="@+id/buttonfetch"
+        android:layout_width="333dp"
+        android:layout_height="45dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:text="Fetch"
+        android:textSize="24dp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="388dp"
+        android:id="@+id/listView">
+    </ListView>
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="333dp"
+        android:layout_height="45dp"
+        android:text="Go to map"
+        android:textSize="24dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/button"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="333dp"
+        android:layout_height="45dp"
+        android:text="Logout"
+        android:layout_marginTop="10dp"
+        android:textSize="24dp"
+        android:layout_marginLeft="35dp"
+        android:background="@drawable/button"/>
+
+
+</LinearLayout>
